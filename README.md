@@ -1,71 +1,73 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+MeroShop - 6th Semester Project
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+MeroShop is an online shopping platform developed as part of our 6th-semester project for our course. This project is a group effort and is designed to provide a user-friendly online shopping experience with features like product browsing, shopping cart, order management, and user authentication.
+Team Members
 
-## About Laravel
+    Saugat Dhungana - GitHub
+    Anup Ghimire
+    Anil Tajpuriya
+    Nikesh Dhakal
+    Suman Basnet
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+    User Registration and Authentication: Users can create accounts and log in securely.
+    Product Catalog: Browse and search for products across different categories.
+    Shopping Cart: Add products to the cart and manage the items before checkout.
+    Order Management: View past orders and track the status of current orders.
+    Admin Dashboard: Admin users can manage products, view customer orders, and more.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Tech Stack
 
-## Learning Laravel
+    Frontend: React.js, Vite, HTML, CSS
+    Backend: Node.js, Express
+    Database: MongoDB
+    Authentication: JWT (JSON Web Tokens)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Installation
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+To run the project locally, follow these steps:
+Prerequisites
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+    Node.js (v14 or higher)
+    npm (Node Package Manager)
 
-## Laravel Sponsors
+Steps to Run
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+    Clone the repository:
 
-### Premium Partners
+git clone https://github.com/SaugatDh/MeroShop.git
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Navigate to the project directory:
 
-## Contributing
+cd MeroShop
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Install the required dependencies:
 
-## Code of Conduct
+npm install
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Start the development server:
 
-## Security Vulnerabilities
+    npm run dev
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+    Visit http://localhost:3000 in your browser to see the application running.
 
-## License
+Usage
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# MeroShop
-6th sem project. 
->>>>>>> 41a01df0e6a7f72df073c5857990866295429413
+    Customer Mode: Browse products, add them to your cart, and place orders.
+    Admin Mode: Login as an admin to manage products, view and update orders.
+
+Contribution
+
+Feel free to fork the repository and submit a pull request for any improvements or bug fixes.
+Team Contributions:
+
+    Saugat Dhungana: Project setup, front-end development (React, Vite), and database integration.
+    Anup Ghimire: Frontend UI design, shopping cart functionality.
+    Anil Tajpuriya: Backend API development (Node.js, Express), user authentication.
+    Nikesh Dhakal: Admin dashboard, order management.
+    Suman Basnet: Final testing and deployment setup.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
