@@ -120,8 +120,9 @@ Feel free to fork the repository and submit a pull request for any improvements 
 - **Anil Tajpuriya**: Backend API development, order management.
 - **Nikesh Dhakal**: Admin dashboard, order management.
 - **Suman Basnet**: Final testing and deployment setup.
-# Make sure to work with the stripe in the .env file and the database. Credits
-This project was inspired by the [YouTube tutorial]([https://www.youtube.com/@WebTechKnowledge]).
+### Make sure to work with the stripe in the .env file and the database. Credits
+- This project was inspired by the [YouTube tutorial](https://www.youtube.com/@WebTechKnowledge).
+
 
 
 ## License
