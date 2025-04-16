@@ -1,5 +1,5 @@
 
-# MeroShop - 6th Semester Project
+# MeroShop - Ecommerce website using Laravel
 
 **MeroShop** is an online shopping platform developed as part of our 6th-semester project for our course. This project is a group effort and is designed to provide a user-friendly online shopping experience with features like product browsing, shopping cart, order management, and user authentication.
 
