@@ -81,6 +81,9 @@ The application should now be accessible in your web browser at `http://127.0.0.
 ## Screenshots
 The `app_ss` directory contains screenshots of the website.
 
+![Screenshot 1](app_ss/Screenshot from 2025-09-02 20-13-45.png)
+![Screenshot 2](app_ss/Screenshot from 2025-09-02 20-14-07.png)
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
