@@ -77,3 +77,10 @@ To get the project up and running on your local machine, follow these steps:
     ```
 
 The application should now be accessible in your web browser at `http://127.0.0.1:8000` (or the address shown in your terminal).
+
+## Screenshots
+The `app_ss` directory contains screenshots of the website.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
