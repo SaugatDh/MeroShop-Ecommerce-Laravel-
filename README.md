@@ -1,130 +1,79 @@
+# MeroShop - E-commerce Platform
 
-# MeroShop - Ecommerce website using Laravel
+## Project Overview
+This project is an e-commerce platform developed as a 6th-semester academic project. It aims to provide a comprehensive online shopping experience, allowing users to browse products, add items to a cart, and place orders.
 
-**MeroShop** is an online shopping platform developed as part of our 6th-semester project for our course. This project is a group effort and is designed to provide a user-friendly online shopping experience with features like product browsing, shopping cart, order management, and user authentication.
+## Technologies Used
+*   **Framework:** Laravel (PHP)
+*   **Database:** MySQL (or compatible)
+*   **Frontend:** HTML, CSS (Tailwind CSS), JavaScript (Vite)
 
 ## Team Members
+*   Saugat Dhungana
+*   Anup Ghimire
+*   Anil Tajpuriya
+*   Nikesh Dhakal
+*   Ujwal Nembang
+*   Suman Basnet
 
-- **Saugat Dhungana** - [GitHub](https://github.com/SaugatDh)
-- **Anup Ghimire**
-- **Anil Tajpuriya**
-- **Nikesh Dhakal**
-- **Suman Basnet**
+## Setup Instructions
 
-## Features
+To get the project up and running on your local machine, follow these steps:
 
-- **User Registration and Authentication**: Users can create accounts and log in securely.
-- **Product Catalog**: Browse and search for products across different categories.
-- **Shopping Cart**: Add products to the cart and manage the items before checkout.
-- **Order Management**: View past orders and track the status of current orders.
-- **Admin Dashboard**: Admin users can manage products, view customer orders, and more.
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository_url>
+    cd MeroShop-Ecommerce-Laravel-
+    ```
 
-## Tech Stack
+2.  **Install PHP Dependencies:**
+    ```bash
+    composer install
+    ```
 
-- **Frontend**: Vite (with Blade templating)
-- **Backend**: Laravel
-- **Database**: MySQL
-- **Authentication**: Laravel built-in authentication system (using Laravel Breeze or Jetstream for login and registration)
+3.  **Install Node.js Dependencies:**
+    ```bash
+    npm install
+    ```
 
-## Installation
+4.  **Environment Configuration:**
+    *   Copy the example environment file:
+        ```bash
+        cp .env.example .env
+        ```
+    *   Generate an application key:
+        ```bash
+        php artisan key:generate
+        ```
+    *   Open the `.env` file and configure your database connection:
+        ```
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1
+        DB_PORT=3306
+        DB_DATABASE=your_database_name
+        DB_USERNAME=your_database_user
+        DB_PASSWORD=your_database_password
+        ```
 
-To run the project locally, follow these steps:
+5.  **Run Database Migrations:**
+    ```bash
+    php artisan migrate
+    ```
+    If you want to seed the database with dummy data (if available):
+    ```bash
+    php artisan db:seed
+    ```
 
-### Prerequisites
+6.  **Compile Frontend Assets:**
+    ```bash
+    npm run dev
+    # or for production build
+    # npm run build
+    ```
 
-Make sure you have the following installed:
+7.  **Start the Development Server:**
+    ```bash
+    php artisan serve
+    ```
 
-- **PHP** (v8.0 or higher)
-- **Composer** (for PHP dependency management)
-- **Node.js** (v14 or higher)
-- **npm** (Node Package Manager)
-- **MySQL** (or another compatible database)
-
-### Steps to Run
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/SaugatDh/MeroShop.git
-   ```
-
-2. **Navigate to the project directory**:
-
-   ```bash
-   cd MeroShop
-   ```
-
-3. **Install PHP dependencies**:
-
-   ```bash
-   composer install
-   ```
-
-4. **Set up your `.env` file**:
-
-   Copy the `.env.example` file to `.env` and configure the database and other environment variables.
-
-   ```bash
-   cp .env.example .env
-   ```
-
-5. **Generate the application key**:
-
-   ```bash
-   php artisan key:generate
-   ```
-
-6. **Set up the database**:
-
-   Run the migrations to set up the database schema.
-
-   ```bash
-   php artisan migrate
-   ```
-
-7. **Install frontend dependencies**:
-
-   ```bash
-   npm install
-   ```
-
-8. **Start the development server**:
-
-   ```bash
-   npm run dev
-   ```
-
-9. **Run the Laravel server**:
-
-   ```bash
-   php artisan serve
-   ```
-
-10. **Visit the application**:
-
-    Open your browser and go to `http://localhost:8000` to see the application running.
-
-## Usage
-
-- **Customer Mode**: Browse products, add them to your cart, and place orders.
-- **Admin Mode**: Login as an admin to manage products, view and update orders.
-
-## Contribution
-
-Feel free to fork the repository and submit a pull request for any improvements or bug fixes.
-
-### Team Contributions:
-
-- **Saugat Dhungana**: Project setup, backend development (Laravel), authentication setup.
-- **Anup Ghimire**: Frontend UI design, shopping cart functionality.
-- **Anil Tajpuriya**: Backend API development, order management.
-- **Nikesh Dhakal**: Admin dashboard, order management.
-- **Suman Basnet**: Final testing and deployment setup.
-### Make sure to work with the stripe in the .env file and the database. Credits
-- This project was inspired by the [YouTube tutorial](https://www.youtube.com/@WebTechKnowledge).
-
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+The application should now be accessible in your web browser at `http://127.0.0.1:8000` (or the address shown in your terminal).
